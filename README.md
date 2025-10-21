@@ -1,8 +1,8 @@
-# Advanced Rust Decompiler
+# Cataclysm
 
-A production-grade, terminal-based decompiler that converts x86-64 Windows executables into readable pseudo-code, C, and Rust.
+A production-grade, terminal-based decompiler that converts x86-64 Windows executables into readable pseudo-code, C, and Rust with Themes , Scripting and a ready compiler systems.
 
-**v3.2.1** | [Setup Guide](SETUP.md) | [Contributing](CONTRIBUTING.md) | [Docs](docs/)
+**v0.0.1** | [Setup Guide](SETUP.md) | [Contributing](CONTRIBUTING.md) | [Docs](docs/)
 
 ---
 
@@ -29,13 +29,13 @@ cd rust-decompiler/rust_file_explorer
 cargo build --release
 
 # Run
-./target/release/rust_file_explorer  # Linux/macOS
+./target/release/rust_file_explorer  # Linux
 .\target\release\rust_file_explorer.exe  # Windows
 ```
 
 ### Usage
 
-1. Navigate to a binary file with arrow keys
+1. Navigate to a file with arrow keys
 2. Press Enter to select
 3. Choose output format (Pseudo/C/Rust)
 4. Results auto-open in `decompiler/projects/{name}/`
@@ -73,7 +73,7 @@ src/
 ├── assembler.rs                 # Assembler interface
 ├── assembly_relocator.rs        # Fixes relocatable code
 │
-├── cross_platform_compiler.rs   # C/Rust compilation (Windows/Linux/macOS)
+├── cross_platform_compiler.rs   # C/Rust compilation (Windows/Linux)
 ├── compiler_tester.rs           # Compiler detection/validation
 ├── custom_compiler.rs           # Custom compiler integration
 │
@@ -124,7 +124,6 @@ native/
 - ✅ Automatic function detection
 - ✅ Control flow recovery
 - ✅ Type inference
-- ✅ ~30% cleaner than competitors (junk filtering)
 
 ### Binary Handling
 - ✅ PE file parsing (headers, sections, imports, exports)
@@ -135,7 +134,7 @@ native/
 ### Compilation
 - ✅ Compile decompiled C code back to binary
 - ✅ Compile generated Rust code
-- ✅ Cross-platform: Windows, Linux, macOS
+- ✅ Cross-platform: Windows, Linux
 - ✅ Auto-fix decompiled code for compilation
 - ✅ Multiple compiler support (MSVC, GCC, Clang)
 
@@ -252,7 +251,6 @@ Run examples: `cargo run --example analyze_pe`
 - **C Compiler:** 
   - Windows: MSVC or MinGW
   - Linux: GCC or Clang
-  - macOS: Xcode Command Line Tools
 
 ### Build Options
 
@@ -282,11 +280,6 @@ cargo fmt && cargo clippy -- -D warnings
 **Linux (Ubuntu/Debian):**
 ```bash
 sudo apt install build-essential gcc clang
-```
-
-**macOS:**
-```bash
-xcode-select --install
 ```
 
 ---
@@ -405,7 +398,7 @@ main.rs (entry point)
 | Disassembly | iced-x86 + capstone |
 | PE Parsing | goblin |
 | UI | crossterm + custom |
-| Platform | Windows, Linux, macOS |
+| Platform | Windows, Linux |
 
 ---
 
@@ -415,7 +408,7 @@ main.rs (entry point)
 - **Status:** ✅ Production Ready
 - **Tests:** ✅ Passing
 - **Documentation:** ✅ Complete
-- **Platform Support:** ✅ Windows/Linux/macOS
+- **Platform Support:** ✅ Windows/Linux
 
 ---
 
@@ -429,45 +422,37 @@ MIT License - See [LICENSE](LICENSE) for educational/research disclaimer.
 
 ## Roadmap
 
-### ✅ Completed (v3.2.1)
+### ✅ Completed (v0.0.1)
 - Multi-format decompilation
 - PE parsing & metadata
 - Cross-platform compilation
 - Project organization
 - Full assembly output
 
-### 🚧 In Progress (v3.3)
+### 🚧 In Progress (v0.0.2)
 - Enhanced type inference
 - Struct reconstruction
 - Better import resolution
 
-### 📋 Planned (v4.0)
+### 📋 Planned (v0.0.3)
 - Plugin system
 - Interactive debugger
 - Advanced CFG analysis
 - Incremental compilation
-
-[Full Roadmap →](docs/general/ROADMAP_V3.2_TO_V4.0.md)
-
 ---
 
 ## Quick Links
 
 **Getting Started**
-- 🚀 [Quick Start](docs/v3.2.1/QUICK_START_V3.2.1.md)
 - 📖 [Setup Guide](SETUP.md)
-- 💡 [First Project](docs/v3.2.1/PROJECT_FOLDER_GUIDE.md)
 
 **Documentation**
 - 📚 [Full Docs](docs/)
-- 🏗️ [Architecture](docs/general/ARCHITECTURE.md)
-- 🔧 [API Reference](docs/v3.2.1/README_V3.2.1.md)
 
 **Resources**
 - 💻 [Examples](examples/)
-- ❓ [FAQ](docs/general/ANSWER_TO_YOUR_QUESTION.md)
-- 📝 [Changelog](docs/v3.2.1/VERSION_3.2.1_CHANGELOG.md)
-
+- ❓ [FAQ](add me on discord: archangel1911)
+- 📝 [Changelog](Not yet out)
 ---
 
 **Made with 🦀 Rust** | Built for security research and education
