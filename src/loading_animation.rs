@@ -1,4 +1,4 @@
-/// Spinning Loading Animation
+/// Spinning Loading Animation kinda deprecated but i kept it as i might use it later
 /// Shows a simple ASCII spinner animation during long operations
 use std::sync::{Arc, Mutex};
 use std::sync::atomic::{AtomicBool, Ordering};
