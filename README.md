@@ -358,12 +358,8 @@ main.rs (entry point)
 
 - **[Setup Guide](SETUP.md)** - Installation & configuration
 - **[Contributing Guidelines](CONTRIBUTING.md)** - Development setup
-- **[Quick Start](docs/v3.2.1/QUICK_START_V3.2.1.md)** - First 60 seconds
 - **[Architecture Guide](docs/general/ARCHITECTURE.md)** - System design
-- **[API Reference](docs/v3.2.1/README_V3.2.1.md)** - Full documentation
 - **[Examples](examples/)** - Working code samples
-- **[Changelog](docs/v3.2.1/VERSION_3.2.1_CHANGELOG.md)** - Version history
-
 ---
 
 ## Use Cases
