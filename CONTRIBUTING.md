@@ -1,6 +1,6 @@
 # Contributing to Advanced Rust Decompiler
 
-Thank you for your interest in contributing! This document provides guidelines and instructions for contributing to this project.
+Thank you in advance for your interest in contributing! This document provides guidelines and instructions for contributing to this project.
 
 ## Code of Conduct
 
@@ -10,6 +10,8 @@ Thank you for your interest in contributing! This document provides guidelines a
 - Focus on responsible disclosure
 
 ## How to Contribute
+Just add me on discord: archangel1911
+and let me know
 
 ### Reporting Issues
 
