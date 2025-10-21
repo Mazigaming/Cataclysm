@@ -1,5 +1,5 @@
 // Enhanced Disassembly Engine
-// Combines Capstone with native C helpers for IDA/Ghidra-quality output
+// Combines Capstone with native C 
 // v2.0 - Professional-grade disassembly with full x86-64 support
 
 use capstone::prelude::*;
