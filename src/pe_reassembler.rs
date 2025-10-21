@@ -1,12 +1,11 @@
 // ============================================================================
-// PE REASSEMBLER - Like IDA/Ghidra's "Apply Patches" Feature
+// PE REASSEMBLER  "Apply Patches" Feature
 // ============================================================================
 // This module enables reassembling decompiled executables by:
 // 1. Extracting all sections from the original PE (imports, data, resources)
 // 2. Reassembling only the modified .text section (code)
 // 3. Rebuilding the PE with the new code + preserved sections
 //
-// This is fundamentally different from creating a new PE from scratch!
 // ============================================================================
 
 use goblin::pe::PE;
