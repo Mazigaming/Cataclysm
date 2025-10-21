@@ -1,0 +1,68 @@
+# Rust
+/target/
+**/*.rs.bk
+*.pdb
+*.idb
+Cargo.lock
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+.project
+.classpath
+.c9/
+
+# Build artifacts
+*.o
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+*.pdb
+*.lib
+*.obj
+
+# Temp and backup files
+*.tmp
+*.bak
+*.fixed.*
+*.swp
+~*
+.#*
+
+# Test outputs
+test_*.exe
+test_*.exe.*
+test_*.asm
+test_*.c
+test_*.rs
+debug.log
+
+# Generated files
+*.generated.rs
+*.generated.c
+
+# Platform specific
+.env.local
+.env.*.local
+
+# LSP
+.metals/
+metals.sbt
+
+# Node (if using trunk for web)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Windows specific
+Thumbs.db
+*.lnk
+
+# Linux/Mac
+.Trash
