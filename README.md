@@ -354,14 +354,6 @@ main.rs (entry point)
 
 ---
 
-## Documentation
-
-- **[Setup Guide](SETUP.md)** - Installation & configuration
-- **[Contributing Guidelines](CONTRIBUTING.md)** - Development setup
-- **[Architecture Guide](docs/general/ARCHITECTURE.md)** - System design
-- **[Examples](examples/)** - Working code samples
----
-
 ## Use Cases
 
 **Security & Malware Analysis**
